@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:background="@drawable/two_color"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Nas"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_nas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Falak"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_falaq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Iqlas"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_iqlas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Lahab"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_lahab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Nasr"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_nasr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Kafiroon"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_kafiroon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Kauther"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_kauther"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Maun"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_maun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Quarish"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_quraish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/quran_icon"
+                    android:layout_weight=".5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="left|center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Surah Fil"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:maxLines="2"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginBottom="2dp"
+                        />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/surah_fil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight=".5"
+                    android:src="@drawable/play_icon"
+                    android:padding="5dp"
+                    android:tag="NOT_PLAYING"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
+
